@@ -11,9 +11,6 @@ terraform {
     bucket = "s3bucketynovb3"
     key = "tools-renaud"
     region = "eu-west-3"
-    assume_role = {
-      role_arn = "arn:aws:iam::381492166046:role/s3_full_access"
-    }
   }
 }
 
